@@ -6,14 +6,14 @@
 /*   By: thbui <thbui@student.42prague.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 00:43:03 by thbui             #+#    #+#             */
-/*   Updated: 2023/06/02 21:10:37 by thbui            ###   ########.fr       */
+/*   Updated: 2023/06/06 16:29:18 by thbui            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
 
-char	*ft_itoa_test(int nbr)
+char	*ft_itoa_test(int nbr) //doesn't work with smallest int!
 {
 	char *str;
 	int temp_n = nbr;
